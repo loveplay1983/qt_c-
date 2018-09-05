@@ -29,3 +29,5 @@ SOURCES += main.cpp\
 HEADERS  += widget.h
 
 FORMS    += widget.ui
+
+CONFIG += c++11
