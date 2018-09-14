@@ -21,6 +21,7 @@ Widget::Widget(QWidget *parent) :
     // make the combo editable
     ui->combo->setEditable(true);
 
+
     /*
     connect(ui->captureval,&QPushButton::clicked,[=]{
         QMessageBox msg;

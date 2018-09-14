@@ -1,0 +1,27 @@
+/*
+ . Styling in qt in very close to css in html format
+
+ . In css format, we have . symbol to access the classname and # symbol to access the id
+
+ . In qt styling, we use "text=xxx" to indicate the text content and # as the object name
+*/
+QPushButton{
+    color: white;
+    background-color: blue;
+}
+
+QPushButton[text="Confirm"]{
+    color: black;
+    background-color: yellow;
+}
+
+QPushButton#cancel{
+    color: red;
+    background-color: yellow;
+}
+
+QPushButton#ok{
+    color: blue;
+    background-color: purple;
+}
+
