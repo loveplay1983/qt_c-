@@ -15,6 +15,13 @@ public:
     explicit Widget(QWidget *parent = 0);
     ~Widget();
 
+private slots:
+    void on_addItemButton_clicked();
+
+    void on_deleteItemButton_clicked();
+
+    void on_selectedItemsButton_clicked();
+
 private:
     Ui::Widget *ui;
 };
